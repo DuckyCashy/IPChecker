@@ -20,7 +20,7 @@ If you forget, you can quickly run the built-in elevator using Option `[5]`.
 ### [1] Get Real Local IP
 * **Description:** Pinpoints your machine's actual primary IP address on the local network. Unlike static environment variable reads, it initializes a live low-overhead UDP dummy socket connection out to an external gateway to determine exactly which interface card is routing traffic.
 * **How to Use:** 1. Select Option `1`.
-  2. The console will display your active assignment (e.g., `[SUCCESS] Local IP Found: 192.168.1.45`).
+  2. The console will display your active assignment (e.g., `[SUCCESS] Local IP Found: 123.456.7.89`).
 
 ---
 
